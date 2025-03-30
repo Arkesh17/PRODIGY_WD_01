@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!-- Three-dots dropdown for mobile -->
+        <div class="dots-toggle" id="dots-menu">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <div class="dropdown-content">
+                <a href="#extra1">Extra 1</a>
+                <a href="#extra2">Extra 2</a>
+                <a href="#extra3">Extra 3</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1>Welcome to the Home Section</h1>
+            <p>Scroll down to see the navigation menu change color.</p>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <p>Learn more about our company.</p>
+        </section>
+        <section id="services">
+            <h1>Our Services</h1>
+            <p>Discover what we offer.</p>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us.</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
